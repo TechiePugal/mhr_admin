@@ -126,11 +126,7 @@ export default function AdminLogin({ onLogin }: AdminLoginProps) {
         </div>
 
         {/* Footer */}
-        <div className="text-center mt-6">
-          <p className="text-purple-300 text-sm">
-            Secure admin access for Pugalfolio system
-          </p>
-        </div>
+       
       </div>
     </div>
   );

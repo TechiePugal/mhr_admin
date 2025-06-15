@@ -8,8 +8,8 @@ interface AdminLoginProps {
 
 export default function AdminLogin({ onLogin }: AdminLoginProps) {
   const [formData, setFormData] = useState({
-    email: 'kannan300866@gmail.com',
-    password: 'Kannan@2025'
+    email: '',
+    password: ''
   });
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState('');

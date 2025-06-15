@@ -8,8 +8,8 @@ interface AdminLoginProps {
 
 export default function AdminLogin({ onLogin }: AdminLoginProps) {
   const [formData, setFormData] = useState({
-    email: 'admin@pugalfolio.com',
-    password: 'admin123'
+    email: 'kannan300866@gmail.com',
+    password: 'Kannan@2025'
   });
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState('');
@@ -105,11 +105,7 @@ export default function AdminLogin({ onLogin }: AdminLoginProps) {
             </div>
 
             {/* Default Credentials Info */}
-            <div className="bg-blue-500/20 border border-blue-500/30 rounded-lg p-3 text-blue-200 text-sm">
-              <p className="font-medium mb-1">Default Admin Credentials:</p>
-              <p>Email: admin@pugalfolio.com</p>
-              <p>Password: admin123</p>
-            </div>
+           
 
             {/* Submit Button */}
             <button

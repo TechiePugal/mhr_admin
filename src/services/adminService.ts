@@ -54,8 +54,8 @@ export const createDefaultAdmin = async () => {
     
     if (querySnapshot.empty) {
       await addDoc(adminsRef, {
-        email: "admin@pugalfolio.com",
-        password: "admin123", // In production, hash this
+        email: "kannan300866@gmail.com",
+        password: "kannan@2025", // In production, hash this
         name: "System Administrator",
         createdAt: Timestamp.now()
       });
